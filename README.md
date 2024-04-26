@@ -1,6 +1,7 @@
-# static-nginx-page
+# link-page
 
 ## build & push
-```
-docker buildx build --platform linux/amd64,linux/arm64 -t ghcr.io/timplay33/static-nginx-page:latest --push
+
+```shell
+docker buildx build --platform linux/amd64,linux/arm64 -t ghcr.io/timplay33/link-page:latest --push .
 ```

@@ -7,6 +7,6 @@ RUN rm -rf ./*
 COPY ./src/* ./
 COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 
-LABEL org.opencontainers.image.source="https://github.com/timplay33/static-nginx-page"
+LABEL org.opencontainers.image.source="https://github.com/timplay33/link-page"
 # Containers run nginx with global directives and daemon off
 ENTRYPOINT ["nginx", "-g", "daemon off;"]

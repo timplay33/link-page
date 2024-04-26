@@ -1,6 +1,6 @@
 services:
   snp:
-    image: ghcr.io/timplay33/static-nginx-page
+    image: ghcr.io/timplay33/link-page
+    restart: unless-stopped
     ports:
       - "8090:80"
-
