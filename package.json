@@ -1,0 +1,16 @@
+{
+  "name": "link-page",
+  "version": "1.0.0",
+  "description": "## build & push",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/style.css -o ./src/build.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "daisyui": "^4.12.10"
+  }
+}
